@@ -58,7 +58,7 @@ WHERE email LIKE '%.com';
 
 SELECT *
 FROM student
-WHERE created_at <= 2021-01-10 00:00:00 ;
+WHERE created_at <= '2021-01-09 00:00:00' ;
 
 -- Exo 1.9
 -- Écrivez la requête qui permet de lister les projects dont la description contient pas la chaîne de caractères `Dolores`
@@ -72,7 +72,7 @@ WHERE description NOT LIKE '%Dolores%';
 
 SELECT *
 FROM project
-WHERE start_date >= 2021-07-01 00:00:00 ;
+WHERE start_date >= '2021-07-01 00:00:00' ;
 
 -- Exo 1.11
 -- Écrivez la requête qui permet de lister les students ayant un project
